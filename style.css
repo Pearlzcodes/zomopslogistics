@@ -89,12 +89,13 @@ height: auto;
     justify-content: center;
     background-size: cover;
     width:auto;
-padding: 80px;}
+    height: 600px;}
 
     .segment h1 {
         color: white;
-        font-size: 80px;
+        font-size: 60px;
         margin: 20px;
+    
     }
 
     .segment button {
