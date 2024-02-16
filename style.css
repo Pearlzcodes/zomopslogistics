@@ -249,17 +249,17 @@ height: auto;
         width:100%
     }
 
-    .team img {width: 100%}
+    .team img {width: 100%;
+}
 
     .team {
         
         box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.4);
         background-color: white;
-        width:calc(50% - 10px);
-       border-radius: 10px;;
-        float: left;
+        width: auto;
+       border-radius: 10px;
         box-sizing: border-box;
-        margin: 5px;
+        margin: 15px;
         
     }
 
@@ -269,8 +269,17 @@ height: auto;
     }
 
     .teamcontainer {
-        display: flex;
-        flex-wrap: wrap;
+        display: grid;
+        grid-template-columns: auto
+       }
+
+       @media screen and (min-width: 1000px) {
+        .teamcontainer {
+            display: grid;
+            grid-template-columns: auto auto;
+
+       }
+        
        }
 
        .serve {
