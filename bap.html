@@ -14,81 +14,142 @@
     </header>
 
     <nav class="navbar">
-      <a href="index.html">Home</a>
-      <a href="about.html">About</a>
-      <a href="team.html">Our Team</a>
-      <a href="services.html">Services</a>
-      <a href="contact.html">Contact</a>
+      <a href="index.html">Back to Home</a>
     </nav>
 
-    <main>
-      <section class="segment">
-        <div class="contain">
-          <h1>The world at your doorstep</h1>
-          <a href=""><button>Order Now</button></a>
-        </div>
-      </section>
+    <main class="ara">
+      <h2>Join the Zomops Logistics Partner Network</h2>
 
-      <div class="actions">
-        <a href="tel:+2349024489007"
-          ><div class="sdd">
-            <img
-              class="svg-icon"
-              src="call-center-service-for-information.svg"
-              alt=""
-            />
-            <h1>Call Now</h1>
-            <p>Get a direct access to our 24 hours call center.</p>
-          </div></a
-        >
+      <p>
+        Thank you for your interest in partnering with Zomops Logistics.
+        Partnering with Zomops Logistics opens up a world of opportunities for
+        growth, collaboration, and success. Whether you're looking to expand
+        your reach, enhance your services, or explore new business ventures,
+        we're here to support you every step of the way. Become a partner with
+        Zomops Logistics today and let's build a brighter future together.
+      </p>
 
-        <a href="bap.html"
-          ><div class="sdd">
-            <img class="svg-icon" src="handshake.svg" alt="" />
-            <h1>Become a Partner</h1>
-            <p>Enjoy priority on your orders as well as unbeatable prices</p>
-          </div></a
-        >
+      <p>
+        Please fill out the following form to provide us with more information
+        about your business and partnership requirements. Once we receive your
+        submission, a member of our partnership team will reach out to discuss
+        potential collaboration opportunities further.
+      </p>
+      <br />
+      <form action="thankyou.html" method="post">
+        <h3>Contact Information</h3>
+        <label for="companyname">Company Name</label>
+        <input
+          type="text"
+          name="companyname"
+          placeholder="e.g Dangote groups of company"
+          required
+        />
 
-        <a href="gfc.html"
-          ><div class="sdd">
-            <img
-              class="svg-icon"
-              src="call-center-worker-with-headset.svg"
-              alt=""
-            />
-            <h1>Get free Consultation</h1>
-            <p>
-              Talk to our experienced logistics personnels on the best practices
-            </p>
-          </div></a
-        >
+        <label for="contactperson">Contact Person</label>
+        <input
+          type="text"
+          name="contactperson"
+          placeholder="e.g Mr. Fatai Ajanlekoko"
+          required
+        />
 
-        <a href="gaq.html"
-          ><div class="sdd">
-            <img
-              class="svg-icon"
-              src="clipboard-verification-symbol.svg"
-              alt=""
-            />
-            <h1>Get a Quote</h1>
-            <p>Estimate cost for sharing and comparism</p>
-          </div></a
-        >
+        <label for="position">Position</label>
+        <input
+          type="text"
+          name="position"
+          placeholder="e.g Logistics Manager"
+          required
+        />
 
-        <a href="sad.html"
-          ><div class="sdd">
-            <img
-              class="svg-icon"
-              src="delivery-truck-with-circular-clock.svg"
-              alt=""
-            />
-            <h1>Shedule a Delivery</h1>
-            <p>Beat time constraints by planning ahead</p>
-          </div></a
+        <label for="email">E Mail Adress</label>
+        <input
+          type="email"
+          name="email"
+          placeholder="e.g fataiajanlekoko@dangotegroups.com"
+          required
+        />
+
+        <label for="number">Phone Number</label>
+        <input
+          type="text"
+          name="number"
+          placeholder="e.g 0902 448 9007"
+          required
+        />
+
+        <h3>Business Details</h3>
+
+        <label for="type">Type of Business</label>
+        <input
+          type="text"
+          name="type"
+          placeholder="e.g., courier company, e-commerce platform, retailer, "
+        />
+
+        <label for="address">Business Address</label>
+        <input
+          type="text"
+          name="address"
+          placeholder="e.g no 9, busuiness
+          street,
+          New
+          York"
+        />
+
+        <label for="websites">Website (if applicble)</label>
+        <input type="text" name="website" placeholder="www.dangotegroups.com" />
+
+        <h3>Partnership Interests</h3>
+        <p>
+          Please provide details about the type of partnership you're interested
+          in and any specific requirements or objectives you have:
+        </p>
+
+        <label for="nature">Partnership Type</label>
+        <select name="nature" id="">
+          <option value="">Logistics Provider</option>
+          <option value="">Distribution Provider</option>
+          <option value="">Affiliate Program</option>
+          <option value="">Storage Provider</option>
+          <option value="">Others</option>
+        </select>
+
+        <label for="objectives"
+          >Objectives/Expectations from the Partnership</label
         >
-      </div>
+        <textarea name="objectives" id="" cols="30" rows="10"></textarea>
+
+        <h3>Additional Information</h3>
+
+        <label for="desc">Brief Description of Your Business</label>
+        <textarea name="desc" id="" cols="30" rows="10"></textarea>
+
+        <label for="setup">Current Logistics Setup (if applicable)</label>
+        <textarea name="setup" id="" cols="30" rows="10"></textarea>
+
+        <label for="add">Any Specific Questions or Concerns</label>
+        <textarea name="add" id="" cols="30" rows="10"></textarea>
+
+        <h3>Declaration</h3>
+        <label for="check"
+          >By submitting this form, you acknowledge that the information
+          provided is accurate and complete to the best of your knowledge. You
+          consent to Zomops Logistics contacting you regarding your partnership
+          inquiry using the provided contact information.</label
+        >
+        <input type="checkbox" required />
+
+        <p>
+          Please submit the completed form by clicking the button below. A
+          member of our partnership team will review your submission and follow
+          up with you shortly.
+        </p>
+
+        <input class="submit" type="submit" />
+      </form>
     </main>
+
     <footer>
       <div class="footlog">
         <img class="logo2" src="RED LOGO.png" alt="" />

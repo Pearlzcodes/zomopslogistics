@@ -81,7 +81,7 @@ header {
 
 
 .segment {
-background:  linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7)), url(general.JPG);
+background:  linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url(general.JPG);
 height: auto;
     margin: 0;
     display: flex;
@@ -305,4 +305,8 @@ height: auto;
         
     
 
-   
+   form input, form select, form textarea {
+    width: calc(100% - 20px); text-align: center; margin: 10px;
+   }
+
+  
