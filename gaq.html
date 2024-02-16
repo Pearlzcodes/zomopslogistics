@@ -14,81 +14,75 @@
     </header>
 
     <nav class="navbar">
-      <a href="index.html">Home</a>
-      <a href="about.html">About</a>
-      <a href="team.html">Our Team</a>
-      <a href="services.html">Services</a>
-      <a href="contact.html">Contact</a>
+      <a href="index.html">Back to Home</a>
     </nav>
 
-    <main>
-      <section class="segment">
-        <div class="contain">
-          <h1>The world at your doorstep</h1>
-          <a href=""><button>Order Now</button></a>
-        </div>
-      </section>
+    <main class="ara">
+      <h1>Quote Request Form</h1>
+      <p>
+        Get started today by filling out the form below and let Zomops Logistics
+        take care of your dispatch and park delivery needs with precision and
+        expertise.
+      </p>
+      <form action="thankyou2.html" method="get">
+        <h3>Contact Information</h3>
 
-      <div class="actions">
-        <a href="tel:+2349024489007"
-          ><div class="sdd">
-            <img
-              class="svg-icon"
-              src="call-center-service-for-information.svg"
-              alt=""
-            />
-            <h1>Call Now</h1>
-            <p>Get a direct access to our 24 hours call center.</p>
-          </div></a
-        >
+        <label for="name">Name</label>
+        <input name="name" type="text" />
 
-        <a href="bap.html"
-          ><div class="sdd">
-            <img class="svg-icon" src="handshake.svg" alt="" />
-            <h1>Become a Partner</h1>
-            <p>Enjoy priority on your orders as well as unbeatable prices</p>
-          </div></a
-        >
+        <label for="bname">Business/Company Name</label>
+        <input name="bname" type="text" />
 
-        <a href="gfc.html"
-          ><div class="sdd">
-            <img
-              class="svg-icon"
-              src="call-center-worker-with-headset.svg"
-              alt=""
-            />
-            <h1>Get free Consultation</h1>
-            <p>
-              Talk to our experienced logistics personnels on the best practices
-            </p>
-          </div></a
-        >
+        <label for="email">E mail</label>
+        <input name="email" type="email" />
 
-        <a href="gaq.html"
-          ><div class="sdd">
-            <img
-              class="svg-icon"
-              src="clipboard-verification-symbol.svg"
-              alt=""
-            />
-            <h1>Get a Quote</h1>
-            <p>Estimate cost for sharing and comparism</p>
-          </div></a
-        >
+        <label for="number">Phone Number</label>
+        <input name="number" type="tel" />
 
-        <a href="sad.html"
-          ><div class="sdd">
-            <img
-              class="svg-icon"
-              src="delivery-truck-with-circular-clock.svg"
-              alt=""
-            />
-            <h1>Shedule a Delivery</h1>
-            <p>Beat time constraints by planning ahead</p>
-          </div></a
+        <h3>Delivery Details</h3>
+
+        <label for="stype">Type of Service</label>
+        <select name="stype" id="">
+          <option value="">Dispatch</option>
+          <option value="">Park Delivery</option>
+          <option value="">Both</option>
+        </select>
+
+        <label for="date">Preferred Delivery Date snd Time</label>
+        <input name="date" type="datetime-local" />
+
+        <label for="est">Estimated Number of deliveries per Week/Month</label>
+        <input name="est" type="number" />
+        <select name="est" id="">
+          <option value="">Weekly</option>
+          <option value="">Yearly</option>
+        </select>
+
+        <label for="product">Description of Goods/Products</label>
+        <textarea name="product" id="" cols="30" rows="10"></textarea>
+
+        <label for=""
+          >Upload a Picture of Goods/Products (Not Compulsory)</label
         >
-      </div>
+        <input type="file" />
+
+        <label for="adinfo"
+          >Add any specific requirements, instructions or budgetary
+          constraints</label
+        >
+        <textarea name="adinfo" id="" cols="30" rows="10"></textarea>
+
+        <label for="check"
+          >By submitting thids form, you agree to our
+          <a href="">terms and conditions and privacy policy</a></label
+        >
+        <input name="check" type="checkbox" required />
+
+        <input type="reset" value="Start all over" />
+        <input type="submit" value="Submit" />
+      </form>
     </main>
+
     <footer>
       <div class="footlog">
         <img class="logo2" src="RED LOGO.png" alt="" />

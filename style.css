@@ -49,8 +49,9 @@ header {
             font-size: 25px;
         }
 
-        .team {
-            width: calc(100% - 20px);
+        .teamcontainer {
+            grid-template-columns: auto;
+           
         }
 
         
