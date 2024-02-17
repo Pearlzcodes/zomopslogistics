@@ -34,7 +34,7 @@ header {
 
 
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
     header {display: flex;
         flex-wrap: wrap; }
    
@@ -273,7 +273,7 @@ height: auto;
         grid-template-columns: auto
        }
 
-       @media screen and (min-width: 1000px) {
+       @media screen and (min-width: 600px) {
         .teamcontainer {
             display: grid;
             grid-template-columns: auto auto;
@@ -316,7 +316,14 @@ height: auto;
     
 
    form input, form select, form textarea {
-    width: calc(100% - 20px); text-align: center; margin: 10px;
+    width: calc(100% - 20px); text-align: center; margin: 20px; padding: 10px; border-radius: 20px;
    }
+
+   form label {
+    font-weight: 700;
+   }
+
+   .order {background-color: red; color: white; font-size: 15px; font-weight: 700; border: none}
+   .order:hover{border: 1px solid red; background-color: white; color: red; transition: 0.5s;} 
 
   
